@@ -1,0 +1,12 @@
+.MoviesList__container {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.8em;
+  justify-items: center;
+  justify-content: center;
+}
+
+.MoviesList__link {
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.MovieDetails__container {
+  margin: 30px;
+}
+
+.MovieDetails__first-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.MovieDetails__poster-img {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.MovieDetails__movie-title {
+  font-size: 2em;
+  color: var(--darkPurple);
+}
+
+.MovieDetails__first-section span {
+  margin-left: 20px;
+}
+
+.MovieDetails__overview {
+  font-size: 1.1em;
+  margin: 10px 40px 10px 0;
+}
+
+.MovieDetails__actors-list {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.5em;
+  justify-items: center;
+  justify-content: center;
+}

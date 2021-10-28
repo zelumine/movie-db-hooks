@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+:root {
+  --darkPurple: #1C0C5B;
+  --medPurple: #3D2C8D;
+  --lightPurple: #916BBF;
+  --pinkish: #C996CC;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* h1 {
+  text-align: center;
+  margin: 15px 10px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    margin: 15px 0;
+  }
+} */

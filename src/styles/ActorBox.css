@@ -1,0 +1,31 @@
+.ActorBox {
+  border: 1px solid var(--pinkish);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ActorBox__img {
+  width: 70%;
+}
+
+.ActorBox p {
+  text-align: center;
+}
+
+.ActorBox a {
+  text-decoration: none;
+}
+
+.ActorBox__name {
+  color: var(--medPurple);
+  font-weight: bold                                                ;
+}
+
+.ActorBox__character {
+  font-style: italic;
+  color: var(--lightPurple);
+}

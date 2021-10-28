@@ -1,0 +1,16 @@
+.MovieBox {
+  border: 2px solid var(--pinkish);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.MovieBox__img {
+  width: 100%;
+}
+
+.MovieBox__title, a {
+  font-size: 1.1em;
+  color: var(--medPurple);
+  text-align: center;
+}
