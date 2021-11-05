@@ -23,7 +23,7 @@ function ActorBox({ profile_path, name, character, actorId }) {
           alt={name} 
         />
       }
-      <Link to={`/actor/${actorId}`}>
+      <Link to={`/person/${actorId}`}>
         <p className="ActorBox__name">{name}</p>
       </Link>
       <p className="ActorBox__character">as {character}</p>

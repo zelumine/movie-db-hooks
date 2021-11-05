@@ -28,3 +28,18 @@ body {
     margin: 15px 0;
   }
 } */
+
+.container {
+  margin: 30px;
+}
+
+.details-img {
+  /* width: 15%; */
+  max-width: 25%;
+  margin-right: 20px;
+}
+
+.details-page-first-section  {
+  display: flex;
+  margin-bottom: 30px;
+}

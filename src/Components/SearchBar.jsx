@@ -4,7 +4,7 @@ import '../styles/SearchBar.css';
 function SearchBar({ searchTerm, handleSearch }) {
   return (
     <div className="SearchBar">
-      <i class="fa-solid fa-magnifying-glass SearchBar__icon"></i>
+      <i className="fa-solid fa-magnifying-glass SearchBar__icon"></i>
       <input 
         type="text" 
         placeholder="Search a movie" 

@@ -2,7 +2,7 @@
   margin: 30px;
 }
 
-.MovieDetails__first-section {
+/* .MovieDetails__first-section {
   display: flex;
   margin-bottom: 30px;
 }
@@ -10,14 +10,14 @@
 .MovieDetails__poster-img {
   width: 45%;
   margin-right: 20px;
-}
+} */
 
 .MovieDetails__movie-title {
   font-size: 2em;
   color: var(--darkPurple);
 }
 
-.MovieDetails__first-section span {
+.details-page-first-section span {
   margin-left: 20px;
 }
 

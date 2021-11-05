@@ -3,6 +3,8 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 
 const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
 const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
+const MOVIE_GENRE_URL = `${API_URL}genre/movie/list?api_key=${API_KEY}&language=en-US`;
+const TV_GENRE_URL = `${API_URL}genre/tv/list?api_key=${API_KEY}&language=en-US`;
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/original/';
 
 export {
@@ -10,5 +12,7 @@ export {
   API_KEY,
   SEARCH_BASE_URL,
   POPULAR_BASE_URL,
+  MOVIE_GENRE_URL,
+  TV_GENRE_URL,
   IMAGE_BASE_URL
 };

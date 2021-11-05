@@ -2,7 +2,9 @@ import {
   API_URL,
   API_KEY,
   SEARCH_BASE_URL,
-  POPULAR_BASE_URL
+  POPULAR_BASE_URL,
+  MOVIE_GENRE_URL,
+  TV_GENRE_URL
 } from './config';
 
 const apiHandler = {
@@ -25,7 +27,17 @@ const apiHandler = {
   getMovieCredits(movieId) {
     return fetch(`${API_URL}movie/${movieId}/credits?api_key=${API_KEY}`)
             .then(result => result.json());
-  }
+  },
+
+  getPerson(personId) {
+    return fetch(`${API_URL}person/${personId}?api_key=${API_KEY}&language=en-US`)
+            .then(result => result.json());
+  },
+
+  getPersonsCredits(personId) {
+    return fetch(`${API_URL}person/${personId}/combined_credits?api_key=${API_KEY}&language=en-US`)
+            .then(result => result.json());
+  },
 }
 
 export default apiHandler;
